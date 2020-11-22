@@ -1,0 +1,11 @@
+button {
+    background-color: lawngreen;
+    border-color: lawngreen;
+}
+td{
+    width: 100px;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
