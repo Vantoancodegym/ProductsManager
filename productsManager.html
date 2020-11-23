@@ -5,10 +5,12 @@
     <title>Products Manager</title>
     <link rel="stylesheet" href="mycss.css" />
 </head>
-<body onload="init()">
+<body onload="display()">
 <form>
     <h3>Add New Product</h3>
-    <input type="text" value="new product" style="width: 200px" id="addPro">
+    <input type="text" placeholder="New product...." style="width: 150px" id="addPro">
+    <input type="text" placeholder="Quanlity...." style="width: 100px" id="addQuanlity">
+    <input type="text" placeholder="Price...." style="width: 100px" id="addPrice">
     <button type="button" onclick="addProduct()" >Add</button>
     <h3>Dislay All Product</h3>
     <table id="replaceTb">
